@@ -1,0 +1,50 @@
+angiography	blood pressure	1
+blood pressure	heart rate	2
+heart rate	heart rate variability	3
+fMRI	glucose	4
+fMRI	temperature	4
+physical activity	temperature	4
+fMRI	images	4
+glucose	physical activity	4
+app use	fMRI	4
+T1/T2-weighted MRI	physical activity	5
+communication patterns	sleep	5
+physical activity	sleep	5
+EMA	physical activity	5
+EMA	T1/T2-weighted MRI	5
+communication patterns	mobility patterns	5
+mobility patterns	physical activity	5
+fMRI	physical activity	5
+EMA	communication patterns	5
+screen use	sleep	5
+DWI	fMRI	5
+DWI	T1/T2-weighted MRI	5
+communication patterns	physical activity	5
+T1/T2-weighted MRI	fMRI	5
+mobility patterns	screen use	5
+fMRI	screen use	5
+EMA	screen use	5
+EMA	fMRI	5
+DWI	sleep	5
+communication patterns	screen use	5
+communication patterns	fMRI	5
+physical activity	screen use	5
+T1/T2-weighted MRI	sleep	5
+DWI	EMA	5
+mobility patterns	sleep	5
+fMRI	sleep	5
+fMRI	mobility patterns	5
+EMA	mobility patterns	5
+DWI	physical activity	5
+T1/T2-weighted MRI	heart rate	6
+fMRI	heart rate	6
+DWI	heart rate variability	6
+respiration rate	sleep	6
+fMRI	heart rate variability	6
+DWI	respiration rate	6
+DWI	blood pressure	6
+DWI	heart rate	6
+DWI	angiography	6
+heart rate	physical activity	6
+T1/T2-weighted MRI	blood pressure	6
+angiography	respiration rate	7

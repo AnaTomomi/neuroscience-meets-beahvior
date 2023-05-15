@@ -1,0 +1,19 @@
+,blood pressure,communication patterns,EMA,glucose,heart rate,heart rate variability,mobility patterns,images,physical activity,respiration rate,screen use,sleep,temperature,app use,DWI,T1/T2-weighted MRI,fMRI,angiography
+blood pressure,5,0,0,0,1,0,0,0,0,0,0,0,0,0,1,3,0,2
+communication patterns,0,2,1,0,0,0,2,0,1,0,2,1,0,0,0,0,2,0
+EMA,0,1,24,0,0,0,1,0,1,0,1,0,0,0,1,1,22,0
+glucose,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+heart rate,1,0,0,0,3,1,0,0,1,0,0,0,0,0,1,2,1,0
+heart rate variability,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,1,0
+mobility patterns,0,2,1,0,0,0,2,0,1,0,2,1,0,0,0,0,2,0
+images,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+physical activity,0,1,1,1,1,0,1,0,47,0,1,6,1,0,15,14,22,0
+respiration rate,0,0,0,0,0,0,0,0,0,2,0,1,0,0,1,0,0,1
+screen use,0,2,1,0,0,0,2,0,1,0,2,1,0,0,0,0,2,0
+sleep,0,1,0,0,0,0,1,0,6,1,1,18,0,0,6,3,9,0
+temperature,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0
+app use,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+DWI,1,0,1,0,1,1,0,0,15,1,0,6,0,0,22,2,1,1
+T1/T2-weighted MRI,3,0,1,0,2,0,0,0,14,0,0,3,0,0,2,19,2,0
+fMRI,0,2,22,1,1,1,2,1,22,0,2,9,1,1,1,2,53,0
+angiography,2,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,3
