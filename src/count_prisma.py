@@ -13,10 +13,10 @@ import os
 import numpy as np
 
 Entrez.email = 'your_email@provider.com'
-pubmed_update_path = '/m/cs/scratch/networks/trianaa1/Paper5/literature-review/tmp/pubmeddata/'
-scopus_update_path = '/m/cs/scratch/networks/trianaa1/Paper5/literature-review/tmp/scopus/'
+pubmed_update_path = './results/pubmeddata/'
+scopus_update_path = './results/scopus/'
 
-master = '/m/cs/scratch/networks/trianaa1/Paper5/literature-review/results/Literature Review.xlsx'
+master = './results/Literature Review.xlsx'
 
 ###############################################################################
 #Utility functions do not touch
