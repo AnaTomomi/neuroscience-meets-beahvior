@@ -1,0 +1,17 @@
+Neuroscience meets behavior: a systematic literature review on Magnetic Resonance Imaging of the brain combined with real-world digital phenotyping
+
+Scripts to run systematic queries to pubmed
+
+1. Edit the keywords (keys1.csv has the "brain" keywords, keys2.csv has the "behaviour" keywords)
+2. Run the script ``. /src/pubmed_search.py``
+3. All output is stored into a subfolder ``/results/pubmeddata``
+4. Retrieve abstracts using ``. /src/pubId2xls.py`` script to make an excel file with the abstracts
+
+Scripts to run systematic queries to scopus
+1. Edit the keywords (keys1.csv has the "brain" keywords, keys2.csv has the "behaviour" keywords)
+2. Create a file ``apikey.txt`` and store your Elsevier API key there
+3. Run the script ``/src/scopus_search.py``
+4. All output is stored into a subfolder ``/results/scopus``
+5. Retrieve abstracts using ``pubId2xls_scopus.py`` script to make an excel file with the abstracts
+
+Enjoy reading :)
