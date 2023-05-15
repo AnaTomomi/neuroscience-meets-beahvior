@@ -27,7 +27,7 @@ def create_discrete_colormap(cmap_name, i):
 
 
 #Load the data to plot
-path = "/m/cs/scratch/networks/trianaa1/Paper5/literature-review/results/brain_masks"
+path = "./results/brain_masks"
 images = [file for file in os.listdir(path) if file.endswith(".nii.gz")]
 cmap_name = 'YlGnBu'
 
