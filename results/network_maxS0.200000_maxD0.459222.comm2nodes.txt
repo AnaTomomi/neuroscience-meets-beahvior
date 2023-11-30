@@ -1,7 +1,7 @@
-1	blood pressure	angiography
-2	heart rate	blood pressure
-3	heart rate	heart rate variability
-4	images	physical activity	app use	temperature	fMRI	glucose
-5	T1/T2-weighted MRI	mobility patterns	physical activity	EMA	sleep	fMRI	DWI	communication patterns	screen use
-6	heart rate	T1/T2-weighted MRI	blood pressure	physical activity	angiography	sleep	fMRI	DWI	respiration rate	heart rate variability
-7	respiration rate	angiography
+1	heart rate	heart rate variability
+2	angiography	blood pressure
+3	angiography	respiration rate
+4	sleep	screen use	communication patterns	fMRI	EMA	physical activity	T1/T2-weighted MRI	mobility patterns	DWI
+5	heart rate	blood pressure
+6	respiration rate	sleep	heart rate	angiography	fMRI	heart rate variability	physical activity	T1/T2-weighted MRI	blood pressure	DWI
+7	physical activity	fMRI	temperature	glucose	images	app use

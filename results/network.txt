@@ -12,8 +12,8 @@ EMA	mobility patterns	1
 EMA	physical activity	1
 EMA	screen use	1
 EMA	DWI	1
-EMA	T1/T2-weighted MRI	1
-EMA	fMRI	22
+EMA	T1/T2-weighted MRI	2
+EMA	fMRI	25
 glucose	physical activity	1
 glucose	fMRI	1
 heart rate	heart rate variability	1
@@ -47,4 +47,4 @@ app use	fMRI	1
 DWI	T1/T2-weighted MRI	2
 DWI	fMRI	1
 DWI	angiography	1
-T1/T2-weighted MRI	fMRI	2
+T1/T2-weighted MRI	fMRI	3
