@@ -1,7 +1,7 @@
-1	angiography,blood pressure
-2	blood pressure,heart rate
-3	heart rate,heart rate variability
-4	fMRI,images	glucose,physical activity	physical activity,temperature	fMRI,glucose	app use,fMRI	fMRI,temperature
-5	T1/T2-weighted MRI,physical activity	communication patterns,sleep	physical activity,sleep	EMA,T1/T2-weighted MRI	EMA,physical activity	communication patterns,mobility patterns	mobility patterns,physical activity	fMRI,physical activity	screen use,sleep	DWI,fMRI	communication patterns,physical activity	T1/T2-weighted MRI,fMRI	DWI,physical activity	mobility patterns,screen use	fMRI,screen use	EMA,screen use	EMA,fMRI	DWI,sleep	communication patterns,screen use	communication patterns,fMRI	physical activity,screen use	T1/T2-weighted MRI,sleep	DWI,EMA	mobility patterns,sleep	fMRI,sleep	fMRI,mobility patterns	EMA,mobility patterns	DWI,T1/T2-weighted MRI	EMA,communication patterns
-6	T1/T2-weighted MRI,heart rate	DWI,heart rate variability	fMRI,heart rate variability	fMRI,heart rate	DWI,blood pressure	respiration rate,sleep	DWI,heart rate	DWI,angiography	DWI,respiration rate	heart rate,physical activity	T1/T2-weighted MRI,blood pressure
-7	angiography,respiration rate
+1	heart rate,heart rate variability
+2	angiography,blood pressure
+3	angiography,respiration rate
+4	EMA,communication patterns	EMA,physical activity	communication patterns,sleep	DWI,fMRI	communication patterns,mobility patterns	mobility patterns,sleep	T1/T2-weighted MRI,fMRI	fMRI,sleep	fMRI,mobility patterns	EMA,mobility patterns	communication patterns,screen use	communication patterns,fMRI	DWI,T1/T2-weighted MRI	mobility patterns,screen use	DWI,physical activity	fMRI,screen use	T1/T2-weighted MRI,physical activity	EMA,screen use	DWI,EMA	physical activity,sleep	EMA,fMRI	communication patterns,physical activity	DWI,sleep	mobility patterns,physical activity	physical activity,screen use	screen use,sleep	fMRI,physical activity	EMA,T1/T2-weighted MRI	T1/T2-weighted MRI,sleep
+5	blood pressure,heart rate
+6	T1/T2-weighted MRI,blood pressure	DWI,angiography	T1/T2-weighted MRI,heart rate	fMRI,heart rate	fMRI,heart rate variability	respiration rate,sleep	DWI,blood pressure	DWI,heart rate	heart rate,physical activity	DWI,respiration rate	DWI,heart rate variability
+7	glucose,physical activity	physical activity,temperature	fMRI,images	fMRI,glucose	app use,fMRI	fMRI,temperature
