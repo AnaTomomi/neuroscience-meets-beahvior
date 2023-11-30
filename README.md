@@ -1,4 +1,4 @@
-#Neuroscience meets behavior: a systematic literature review on Magnetic Resonance Imaging of the brain combined with real-world digital phenotyping
+# Neuroscience meets behavior: a systematic literature review on Magnetic Resonance Imaging of the brain combined with real-world digital phenotyping
 Authors: Ana María Triana, Jari Saramäki, Enrico Glerean, and Nicholas Mark Edward Alexander Hayward.
 
 This repository contains the code used to produce this systematic literature review findings.
@@ -36,7 +36,7 @@ Use the script ``make_network.py`` to create the co-occurence network. This scri
 Use the edge list to create the link communities according to Yong-Yeol Ahn, James P. Bagrow, and Sune Lehmann, Link communities reveal multiscale complexity in networks, Nature 466, 761 (2010). (https://github.com/bagrow/linkcomm)
 
 # Brain regions analysis
-Use the scripts in the folder ./src/brainroisynth to map and extract the number of brain regions used by each MRI-PAD combination. The scripts are labelled in steps, so follow the steps. 
+Use the scripts in the folder ./src/brainroisynth to map and extract the number of brain regions used by each MRI-PAD combination. The scripts are labelled in steps, so follow the steps. Results from these steps are also available online in https://neurovault.org/collections/13976/
 
 #Meta-analysis
 Use the scripts in the folder ./src/run_metaanalysis.py and ./src/run_metaanalysis_bymethod.py to run the meta-analysis for any MRI-PAD combination for which four or more studies reported coordinates. 
@@ -48,4 +48,3 @@ Finally, run the following scripts to create the visualizations.
 3. Network visualizations are created in gephi. Use the adjacency matrix generated from the Graph analysis and the link communities files as data sources for gephi (https://gephi.org/).
 4. To visualize the areas in the brain, use the script ``plot_brainmasks.py``
 5. To visualize the meta-analysis, use the script ``plot_brainmasks.py``
-
