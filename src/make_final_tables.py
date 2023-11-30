@@ -1,3 +1,9 @@
+###############################################################################
+# This script organizes the tables that we used in the analysis for publication
+#                                                                             #
+# Author: ana.trianahoyos@aalto.fi                                            #
+###############################################################################
+
 import pandas as pd
 import numpy as np
 

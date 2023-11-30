@@ -1,3 +1,10 @@
+###############################################################################
+# This script visualizes the brain visualization and meta-analysis data in    #
+# brain surface plots.                                                        #    
+#                                                                             #
+# Author: ana.trianahoyos@aalto.fi                                            #
+###############################################################################
+
 from neuromaps import transforms
 from surfplot import Plot
 from neuromaps.datasets import fetch_fslr
@@ -27,9 +34,9 @@ def create_discrete_colormap(cmap_name, i):
 
 
 #Load the data to plot
-path = "/m/cs/scratch/networks/trianaa1/Paper5/literature-review/results/brain_masks"
+path = "../results/brain_masks"
 images = [file for file in os.listdir(path) if file.endswith(".nii.gz")]
-cmap_name = 'YlGnBu'
+cmap_name = 'YlOrRd'
 
 for image in images:
     img = f'{path}/{image}'
@@ -65,13 +72,12 @@ for image in images:
     fig = p.build(cbar_kws=cbar_kws)
     
     cbar = fig.axes[1]
-    cbar.set_xticks(np.linspace(0, i, i+1) + 0.5)
-    cbar.set_xticklabels(np.arange(i+1), fontsize=14)
+    cbar.set_xticks(np.linspace(0, i, i)+0.5)
+    cbar.set_xticklabels(np.arange(i)+1, fontsize=14)
     
-    fig.axes[1].set_xlabel('number of studies', labelpad=10, fontstyle='italic', fontsize=16)
+    fig.axes[1].set_xlabel('number of studies', labelpad=10, fontsize=16)
     fig.show()
 
-    plt.savefig(f'{path}/{image[:-7]}.pdf', dpi=300)
+    plt.savefig(f'{savepath}/{image[:-7]}.pdf', dpi=300)
     
     del p, fslr_lh, fslr_rh, surf_img, img, label, i, fig
-

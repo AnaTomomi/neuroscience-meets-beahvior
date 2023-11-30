@@ -15,7 +15,7 @@ dtistudies={
 'P40'
 'P48'
 'P49'
-'P50'
+'P50'   
 'P59'
 'P71'
 'S03'
@@ -36,7 +36,8 @@ map=readtable('map.xlsx');
 
 %data2=readtable('datav2.xlsx');
 opts = detectImportOptions('../../results/results_organized.xlsx');
-opts.SelectedVariableNames = opts.SelectedVariableNames([2, 92]);
+opts.SelectedVariableNames = opts.SelectedVariableNames([2, 93]); % columns 'ID' and 'brain_area'
+
 data = readtable('../../results/results_organized.xlsx',opts);
 % for d=1:height(data)
 %     out=strcmp(strtrim(data{d,2}{1}),strtrim(data2{d,2}{1}));
